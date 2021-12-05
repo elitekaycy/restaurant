@@ -1,0 +1,53 @@
+#logo-img {
+  position: absolute;
+  left: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  opacity: 50%;
+}
+a:hover {
+  text-decoration: underline;
+  color: green;
+  width: 200px;
+  text-shadow: black;
+  opacity: 100%;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 25px 0 0 500px;
+  font-family: Segoe UI;
+}
+h1 {
+  font-family: Segoe UI;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 5ch;
+}
+#kk {
+  color: red;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  background-color: #f1356d;
+  width: auto;
+  height: auto;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
